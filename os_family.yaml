@@ -1,5 +1,5 @@
 ---
-  - hosts: all
+  - hosts: ~SRV.*
     become: true
     tasks:
      - name: OS Family
