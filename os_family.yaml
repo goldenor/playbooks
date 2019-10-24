@@ -1,0 +1,6 @@
+---
+  - hosts: all
+    become: true
+    tasks:
+     - name: OS Family
+       debug: msg="C'est un serveur {{ ansible_distribution_file_variety }} {{ ansible_distribution }}"
