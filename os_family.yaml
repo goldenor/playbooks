@@ -1,5 +1,5 @@
 ---
-  - hosts: ~SRV.*
+  - hosts: ~SRVCOS.*
     become: true
     tasks:
      - name: OS Family
